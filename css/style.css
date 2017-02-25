@@ -1,47 +1,71 @@
 body {
 	margin: 0;
-	background-color: black !important;
+	background-color: #4e7eea !important;
 }
 
 .title-text {
-	width: 50%;
-	height: 50%;
-	margin: 12% 0 0 25%;
-	position: absolute;
+	width: 100%;
+    top: 60%;
+
+	position: relative;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: "sans-serif";
-	color: #0089a2;
+	color: floralwhite;
 }
 
 .title-text h1, .title-text h2 {
-	color: #0089a2;
-    text-shadow: #090A10 2px 2px 1px;
+	color: floralwhite;
+    text-shadow: #4e7eea 4px 2px 5px;
     -webkit-font-smoothing: antialiased;
     font-weight: bolder;
+
 }
 
 .title-text h1 {
-	font-size: 36px;
+	font-size: 6em;
 }
 
 .title-text h2 {
-	font-size: 36px;
+	font-size: 3.5em;
 }
 
-h1 {
-	font-size: 40px;
-	font-family: sans-serif;
-	margin-top:0cm;
-	margin-left:0cm;
-	font-weight: bolder;
+.title-text-bottom {
+    top: 80%;
+
 }
 
-h2 {
-	font-size: 30pt;
-	font-family: sans-serif;
-	margin-top:-1.7cm;
-	margin-bottom:1cm;
+.title-text-bottom h1, .title-text-bottom h2 {
+    color: ghostwhite;
+    text-shadow:
+            -2px -2px 0 #4e7eea,
+            2px -2px 0 #4e7eea,
+            -2px 2px 0 #4e7eea,
+            2px 2px 0 #4e7eea;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bolder;
+
+}
+
+.title-text-bottom h1 {
+    font-size: 6em;
+}
+
+.title-text-bottom h2 {
+    font-size: 4.5em;
+}
+
+.blue_bg {
+    background-color: #4e7eea;
+}
+
+.interested_button {
+    text-transform: uppercase;
+    font-family: georgia;
+    font-weight: bolder;
+    font-size: 19px;
+    color: #4e7eea;
+    background-color: ghostwhite;
 }
 
 h3 {
@@ -68,9 +92,13 @@ ozn {
 	color: #FFCC00;
 }
 
+.zoznam {
+    list-style-type: square;
+}
+
 .header {
-	background-color:black;
-	color:#0089a2;
+	background-color: #4e7eea;
+	color: floralwhite;
 	text-transform: uppercase;
 	font-size: 20px;
 	position: fixed;
@@ -135,6 +163,7 @@ ozn {
 
 .navigation .inf, .navigation .co, .navigation .kontakty {
 	display: inline-block;
+
 }
 
 .prihlasenie {
@@ -148,7 +177,7 @@ ozn {
 	margin: 0px auto;
 	font-size: 20px;
 	font-family: "Georgia";
-	color: #0089a2;
+	color: ghostwhite;
 }
 
 .nadpis {
@@ -156,7 +185,7 @@ ozn {
 	font-size: 30px;
 	font-family: sans-serif;
 	text-transform: uppercase;
-	color: #0089a2;
+	color: floralwhite;
 	text-align: center;
 	padding: 40px;
 	font-weight: lighter;
@@ -171,12 +200,12 @@ th {
 }
 
 td {
-	color: #ace6f1;
+	color: #c3f5ff;
 }
 
 .text{
 	width:90%;
-	color: #ace6f1;
+	color: #b6f4ff;
 	font-family: "Georgia";
 	text-align: justify;
 	font-size: 20px;
@@ -185,7 +214,7 @@ td {
 }
 
 .navigation a:link {
-	color:#0089a2;
+	color: floralwhite;
 	text-transform: uppercase;
 	font-size: 20px;
 	font-family:georgia;
@@ -193,7 +222,7 @@ td {
 }
 
 .navigation a:visited {
-	color:#0089a2;
+	color: floralwhite;
 	text-transform: uppercase;
 	font-size: 20px;
 	font-family:georgia;
@@ -201,7 +230,7 @@ td {
 }
 
 .navigation a:active {
-	color:#ace6f1;
+	color: #b9fcff;
 	text-transform: uppercase;
 	font-size: 20px;
 	font-family:georgia;
@@ -209,7 +238,7 @@ td {
 }
 
 .navigation a:hover {
-	color:#ace6f1;
+	color: #b9fcff;
 	text-transform: uppercase;
 	font-size: 20px;
 	font-family:georgia;
@@ -217,29 +246,89 @@ td {
 }
 
 .centerTable a:link {
-	color:#ace6f1;
+	color: floralwhite;
 	font-size: 20px;
 	font-family:georgia;
 	text-decoration:none;
 }
 
 .centerTable a:visited {
-	color:#ace6f1;
+	color: floralwhite;
 	font-size: 20px;
 	font-family:georgia;
 	text-decoration:none;
 }
 
 .centerTable a:active {
-	color:#0089a2;
+	color: #b9fcff;
 	font-size: 20px;
 	font-family:georgia;
 	text-decoration:none;
 }
 
 .centerTable a:hover {
-	color:#0089a2;
+	color: #b9fcff;
 	font-size: 20px;
 	font-family:georgia;
 	text-decoration:none;
 }
+
+.contact {
+    color: papayawhip;
+}
+
+@media (max-width: 1150px) {
+    .title-text {
+        width: 100%;
+        top: 60%;
+
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "sans-serif";
+        color: floralwhite;
+    }
+
+    .title-text h1, .title-text h2 {
+        color: floralwhite;
+        text-shadow: #4e7eea 4px 2px 5px;
+        -webkit-font-smoothing: antialiased;
+        font-weight: bolder;
+
+    }
+
+    .title-text h1 {
+        font-size: 4em;
+    }
+
+    .title-text h2 {
+        font-size: 2.5em;
+    }
+}
+@media (max-width: 1350px) {
+    .title-text-bottom {
+        top: 60%;
+
+    }
+
+    .title-text-bottom h1, .title-text-bottom h2 {
+        color: ghostwhite;
+        text-shadow:
+                -2px -2px 0 #4e7eea,
+                2px -2px 0 #4e7eea,
+                -2px 2px 0 #4e7eea,
+                2px 2px 0 #4e7eea;
+        -webkit-font-smoothing: antialiased;
+        font-weight: bolder;
+
+    }
+
+    .title-text-bottom h1 {
+        font-size: 4em;
+    }
+
+    .title-text-bottom h2 {
+        font-size: 2.5em;
+    }
+}
+
