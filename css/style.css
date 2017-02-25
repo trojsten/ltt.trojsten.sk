@@ -68,6 +68,11 @@ body {
     background-color: ghostwhite;
 }
 
+.interested_button:hover {
+    color: ghostwhite;
+    background-color: #4e7eea;
+}
+
 h3 {
 	font-size: 20pt;
 	font-family: sans-serif;
@@ -331,4 +336,3 @@ td {
         font-size: 2.5em;
     }
 }
-
