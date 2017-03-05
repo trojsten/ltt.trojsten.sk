@@ -1,6 +1,12 @@
+@font-face {
+    font-family: Reckless;
+    font-weight: bold;
+    src: url("../fonts/Reckless.otf") format("opentype");
+}
+
 body {
 	margin: 0;
-	background-color: #4e7eea !important;
+	background-color: #4e7ee9 !important;
 }
 
 .title-text {
@@ -10,13 +16,13 @@ body {
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: "sans-serif";
+	font-family: 'Source Sans Pro';
 	color: floralwhite;
 }
 
 .title-text h1, .title-text h2 {
 	color: floralwhite;
-    text-shadow: #4e7eea 4px 2px 5px;
+		text-shadow: #080808 1px 0px 25px;
     -webkit-font-smoothing: antialiased;
     font-weight: bolder;
 
@@ -32,19 +38,6 @@ body {
 
 .title-text-bottom {
     top: 80%;
-
-}
-
-.title-text-bottom h1, .title-text-bottom h2 {
-    color: ghostwhite;
-    text-shadow:
-            -2px -2px 0 #4e7eea,
-            2px -2px 0 #4e7eea,
-            -2px 2px 0 #4e7eea,
-            2px 2px 0 #4e7eea;
-    -webkit-font-smoothing: antialiased;
-    font-weight: bolder;
-
 }
 
 .title-text-bottom h1 {
@@ -56,44 +49,44 @@ body {
 }
 
 .blue_bg {
-    background-color: #4e7eea;
+    background-color: #4e7ee9;
 }
 
 .interested_button {
     text-transform: uppercase;
-    font-family: georgia;
+    font-family: 'Source Sans Pro';
     font-weight: bolder;
     font-size: 19px;
-    color: #4e7eea;
+    color: #4e7ee9;
     background-color: ghostwhite;
 }
 
 .interested_button:hover {
     color: ghostwhite;
-    background-color: #4e7eea;
+    background-color: #4e7ee9;
 }
 
 h3 {
 	font-size: 20pt;
-	font-family: sans-serif;
+	font-family: 'Source Sans Pro';
 	text-align: center;
 }
 
 p {
 	color: #000033;
 	font-size: 16px;
-	font-family:georgia;
+	font-family: 'Source Sans Pro';
 }
 
 p1 {
 	color:#FFCC00;
 	font-size:20pt;
-	font-family:georgia;
+	font-family: 'Source Sans Pro';
 }
 
 ozn {
 	font-size: 32pt;
-	font-family: georgia;
+	font-family: 'Source Sans Pro';
 	color: #FFCC00;
 }
 
@@ -102,7 +95,7 @@ ozn {
 }
 
 .header {
-	background-color: #4e7eea;
+	background-color: #4e7ee9;
 	color: floralwhite;
 	text-transform: uppercase;
 	font-size: 20px;
@@ -142,7 +135,7 @@ ozn {
 
 .logo .title {
 	font-size: 28px;
-	font-family: georgia;
+	font-family: 'Source Sans Pro';
 	margin-top: 10px;
 }
 
@@ -181,37 +174,39 @@ ozn {
 .centerTable {
 	margin: 0px auto;
 	font-size: 20px;
-	font-family: "Georgia";
+	font-family: 'Source Sans Pro';
 	color: ghostwhite;
 }
 
 .nadpis {
 	width: 100%;
-	font-size: 30px;
-	font-family: sans-serif;
+	font-size: 4em;
+	font-family: 'Reckless';
 	text-transform: uppercase;
 	color: floralwhite;
 	text-align: center;
-	padding: 40px;
+	padding: 20px;
 	font-weight: lighter;
 	padding-top: 5%;
 }
 
 th {
+	font-family: 'Reckless';
 	width: 25%;
-	height: 50px;
+	height: 75px;
 	vertical-align: middle;
-	font-style:italic;
+	font-size: 2.5em;
 }
 
 td {
 	color: #c3f5ff;
+	vertical-align: middle;
 }
 
 .text{
 	width:90%;
 	color: #b6f4ff;
-	font-family: "Georgia";
+	font-family: 'Source Sans Pro';
 	text-align: justify;
 	font-size: 20px;
 	padding-left: 10%;
@@ -222,7 +217,7 @@ td {
 	color: floralwhite;
 	text-transform: uppercase;
 	font-size: 20px;
-	font-family:georgia;
+	font-family: 'Source Sans Pro';
 	text-decoration:none;
 }
 
@@ -230,7 +225,7 @@ td {
 	color: floralwhite;
 	text-transform: uppercase;
 	font-size: 20px;
-	font-family:georgia;
+	font-family: 'Source Sans Pro';
 	text-decoration:none;
 }
 
@@ -238,7 +233,7 @@ td {
 	color: #b9fcff;
 	text-transform: uppercase;
 	font-size: 20px;
-	font-family:georgia;
+	font-family: 'Source Sans Pro';
 	text-decoration:none;
 }
 
@@ -246,35 +241,35 @@ td {
 	color: #b9fcff;
 	text-transform: uppercase;
 	font-size: 20px;
-	font-family:georgia;
+	font-family: 'Source Sans Pro';
 	text-decoration:none;
 }
 
 .centerTable a:link {
 	color: floralwhite;
 	font-size: 20px;
-	font-family:georgia;
+	font-family: 'Source Sans Pro';
 	text-decoration:none;
 }
 
 .centerTable a:visited {
 	color: floralwhite;
 	font-size: 20px;
-	font-family:georgia;
+	font-family: 'Source Sans Pro';
 	text-decoration:none;
 }
 
 .centerTable a:active {
 	color: #b9fcff;
 	font-size: 20px;
-	font-family:georgia;
+	font-family: 'Source Sans Pro';
 	text-decoration:none;
 }
 
 .centerTable a:hover {
 	color: #b9fcff;
 	font-size: 20px;
-	font-family:georgia;
+	font-family: 'Source Sans Pro';
 	text-decoration:none;
 }
 
@@ -290,13 +285,12 @@ td {
         position: relative;
         text-align: center;
         text-transform: uppercase;
-        font-family: "sans-serif";
+        font-family: 'Source Sans Pro';
         color: floralwhite;
     }
 
     .title-text h1, .title-text h2 {
         color: floralwhite;
-        text-shadow: #4e7eea 4px 2px 5px;
         -webkit-font-smoothing: antialiased;
         font-weight: bolder;
 
@@ -318,11 +312,6 @@ td {
 
     .title-text-bottom h1, .title-text-bottom h2 {
         color: ghostwhite;
-        text-shadow:
-                -2px -2px 0 #4e7eea,
-                2px -2px 0 #4e7eea,
-                -2px 2px 0 #4e7eea,
-                2px 2px 0 #4e7eea;
         -webkit-font-smoothing: antialiased;
         font-weight: bolder;
 
@@ -335,4 +324,8 @@ td {
     .title-text-bottom h2 {
         font-size: 2.5em;
     }
+}
+
+.little {
+	font-size: 0.7em;
 }
