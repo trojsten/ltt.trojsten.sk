@@ -273,6 +273,34 @@ td {
 	text-decoration:none;
 }
 
+.text a:link {
+    color: floralwhite;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    text-decoration:none;
+}
+
+.text a:visited {
+    color: floralwhite;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    text-decoration:none;
+}
+
+.text a:active {
+    color: #b9fcff;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    text-decoration:none;
+}
+
+.text a:hover {
+    color: #b9fcff;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    text-decoration:none;
+}
+
 .contact {
     color: papayawhip;
 }
