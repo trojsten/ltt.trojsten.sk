@@ -213,6 +213,10 @@ td {
 	padding-bottom: 5%;
 }
 
+.centerText{
+    text-align: center;
+}
+
 .navigation a:link {
 	color: floralwhite;
 	text-transform: uppercase;
