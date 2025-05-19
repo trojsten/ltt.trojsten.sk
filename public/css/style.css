@@ -94,6 +94,10 @@ ozn {
     list-style-type: square;
 }
 
+.zoznam li {
+    padding-top: 0.75rem;
+}
+
 .header {
 	background-color: #4e7ee9;
 	color: floralwhite;
@@ -199,13 +203,15 @@ th {
 }
 
 td {
-	color: #c3f5ff;
+	/* color: #c3f5ff; */
+	color: whitesmoke;
 	vertical-align: middle;
 }
 
 .text{
 	width:90%;
-	color: #b6f4ff;
+	/* color: #b6f4ff; */
+	color: whitesmoke;
 	font-family: 'Source Sans Pro';
 	text-align: justify;
 	font-size: 20px;
